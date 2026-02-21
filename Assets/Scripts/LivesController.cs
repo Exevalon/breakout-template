@@ -41,6 +41,8 @@ public class LivesController : MonoBehaviour
     {
         if (_gameOver) return;
 
+        if (SfxManager.Instance != null)
+            SfxManager.Instance.PlayLoseLife();
         _lives--;
         if (_lives >= 0 && _lives < heartImages.Length && heartEmpty != null)
             heartImages[_lives].sprite = heartEmpty;

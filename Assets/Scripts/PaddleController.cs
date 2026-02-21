@@ -102,6 +102,8 @@ public class PaddleController : MonoBehaviour
         Vector2 direction = new Vector2(dir, 1f).normalized;
         ballRigidbody.linearVelocity = direction * launchSpeed;
         _ballInPlay = true;
+        if (SfxManager.Instance != null)
+            SfxManager.Instance.PlayLaunchBall();
     }
 
     /// <summary>

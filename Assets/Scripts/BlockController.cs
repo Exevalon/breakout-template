@@ -26,6 +26,8 @@ public class BlockController : MonoBehaviour
 
     void HandleHit(Collision2D collision)
     {
+        if (SfxManager.Instance != null)
+            SfxManager.Instance.PlayBlockHit();
         health--;
         if (health <= 0)
             Destroy(gameObject);
