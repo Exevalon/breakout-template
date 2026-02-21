@@ -9,8 +9,12 @@ Welcome to the **AI-Assisted Game Dev Workshop**! This repository is the project
 
 ### Unity
 
-You will need **Unity 6000.3.8f1** to open this project. Download and install it from the official release page:
-[Unity 6000.3.8f1 — What's New & Installs](https://unity.com/releases/editor/whats-new/6000.3.8f1#installs)
+You will need **Unity 6000.3.8f1** to open this project. If you don't have a Unity account yet, [create one here](https://login.unity.com/en/sign-in) before getting started.
+
+To install Unity 6000.3.8f1, you have two options:
+
+- **Direct download** — Download the editor directly from the official release page: [Unity 6000.3.8f1 — What's New & Installs](https://unity.com/releases/editor/whats-new/6000.3.8f1#installs)
+- **Unity Hub** — Download [Unity Hub](https://unity.com/unity-hub) and install the editor from within it. Unity Hub makes it easy to manage multiple Unity versions.
 
 ### This Template
 
@@ -26,6 +30,13 @@ You will use Cursor as your AI-assisted code editor during the workshop.
 - Download Cursor: [https://cursor.com](https://cursor.com)
 - Sign up for a **free account** to get started.
 - If you'd like to explore Cursor further after the workshop, consider trying the **Pro plan** for a month.
+
+---
+
+## Workshop Slides
+
+Here are the slides used during the workshop, available for reference at any time:
+[AI-Assisted Game Dev Workshop — Slides](https://docs.google.com/presentation/d/1Qs1dFC9RcCDogs4QBaTxBWAlc4vrJQbnI6aFMgF9obw/edit?usp=sharing)
 
 ---
 
