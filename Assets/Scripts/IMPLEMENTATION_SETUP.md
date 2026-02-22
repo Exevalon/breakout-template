@@ -14,7 +14,8 @@ After adding the scripts, complete setup in **Level1** as follows.
 
 1. Select the **Ball** GameObject.
 2. Add component **BallBounceSound** (Scripts/BallBounceSound) so wall and paddle bounces play sounds (with varied pitch).
-3. In the Inspector, set **Tag** to **Ball** (so the death barrier can detect it).
+3. Add component **BallMinimumBounceAngle** (Scripts/BallMinimumBounceAngle) so the ball never bounces at a nearly horizontal angle (default min 15° from horizontal; adjustable in the Inspector).
+4. In the Inspector, set **Tag** to **Ball** (so the death barrier can detect it).
 
 ## Walls
 

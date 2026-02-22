@@ -8,11 +8,16 @@ public class BlockController : MonoBehaviour
 {
     [SerializeField]
     int health = 1;
+    
+    [SerializeField]
+    BlockCount counter;
 
     BlockCollisionRelay _relay;
 
     void Start()
     {
+        counter.blockCount += 1;
+        
         _relay = GetComponentInChildren<BlockCollisionRelay>();
         if (_relay != null)
             _relay.OnBlockHit += HandleHit;
@@ -20,6 +25,8 @@ public class BlockController : MonoBehaviour
 
     void OnDestroy()
     {
+        counter.blockCount -= 1;
+        
         if (_relay != null)
             _relay.OnBlockHit -= HandleHit;
     }
